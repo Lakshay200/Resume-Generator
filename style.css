@@ -1,0 +1,41 @@
+
+#cv-template{
+    display:none;
+}
+
+#header
+{
+    background-color: black;
+    color:white;
+    height:9vh;
+}
+
+h3{
+    margin:50px;
+}
+
+.myimg{
+    border-radius: 50%;
+    width:200px;
+
+}
+.background{
+    background-color:white;
+}
+@media resume{
+       body{ visibility:hidden;
+}
+        .non_print_area{
+            display:none;
+        }
+        .print_area, .print_area *{
+            visibility: visible;
+        }
+        .print_area{
+            width: 100%;
+            position: absolute;
+            left: 0;
+            top: 0;
+            overflow: hidden;
+        }
+}
